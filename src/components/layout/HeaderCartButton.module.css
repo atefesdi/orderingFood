@@ -1,0 +1,56 @@
+.cartBtnStyle{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 38px;
+    margin-top: 8px;
+    color: white;
+    padding: 1px 13px;
+    width: 180px;
+    border: 2px solid #f2f4f3  ;
+    background-color: #b6c454;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+.cartBtnStyle:hover{
+    opacity: .7;
+}
+.cartBtnStyle i{
+    font-size: 20px;
+    padding: 5px;
+}
+.cartBtnStyle p {
+    font-size: 17px;
+    padding-top: 0;
+    margin: 6px 0;
+}
+.cartBtnStyle span {
+    font-size: 18px;
+    margin: 5px 3px;
+}
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

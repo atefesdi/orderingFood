@@ -1,0 +1,62 @@
+.MealsCartStyle{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    align-items: center;
+
+}
+.MealsCartStyle > div {
+    display: flex;
+    flex-direction: row;
+}
+.MealsCartStyle > div input {
+    width: 23px;
+    height: 18px;
+    display: flex;
+    margin: 0;
+    border-radius: 3px;
+    border: 1px #333 solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.MealsCartStyle > div input:focus{
+    outline: none;
+}
+.MealsCartStyle > div p{
+    font-size: 14px;
+    margin: 0;
+    padding-right: 5px;
+}
+.MealsCartStyle button{
+    cursor: pointer;
+    filter: drop-shadow(0 0 .5px black);
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #b6c454;
+    border: none;
+    width: 110px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-filter: drop-shadow(0 0 .5px black);
+}
+
+.MealsCartStyle button i{
+    margin: 0;
+}
+.MealsCartStyle button p{
+    margin: 0;
+    padding-left: 3px;
+    
+}

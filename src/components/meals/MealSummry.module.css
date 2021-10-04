@@ -1,0 +1,21 @@
+.mealSummryStyle{
+    background-color: #b6c454;
+    width: 430px;
+    padding: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(0  0  .3rem rgb(34, 34, 34));
+    transform: translate(310px , -230px);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transform: translate(310px , -230px);
+    -moz-transform: translate(310px , -230px);
+    -ms-transform: translate(310px , -230px);
+    -o-transform: translate(310px , -230px);
+    -webkit-filter: drop-shadow(0  0  .3rem rgb(34, 34, 34));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mealSummryStyle p{
+    line-height: 23px;
+}

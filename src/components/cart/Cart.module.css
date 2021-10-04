@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.CartBckgStyle{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    background:rgba(54, 51, 51 , .6) ;
+    overflow: hidden;
+    position: fixed;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CardItemsStyle{
+    position: absolute;
+    position: fixed;
+    width: 600px;
+    /*height: 300px;
+    */z-index: 9;
+    background-color: white;
+    padding: 10px;
+    transform: translate(250px , 140px);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transform: translate(250px , 140px);
+    -moz-transform: translate(250px , 140px);
+    -ms-transform: translate(250px , 140px);
+    -o-transform: translate(250px , 140px);
+}
+.btnStyles {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnStyles button{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 75px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(92, 13, 13);
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.totalStyle {
+    font-size: 12px;
+}
+
+

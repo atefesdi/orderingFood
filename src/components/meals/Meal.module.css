@@ -1,0 +1,28 @@
+.mealStyle {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    margin-top: 0px;
+    width: 770px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.imgStyle{
+    width: 140px;
+    height: 100px;
+    margin-top: 0;
+    
+}
+.imgStyle img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
