@@ -23,8 +23,8 @@
     position: absolute;
     position: fixed;
     width: 600px;
-    /*height: 300px;
-    */z-index: 9;
+    max-height: 300px;
+    z-index: 9;
     background-color: white;
     padding: 10px;
     transform: translate(250px , 140px);

@@ -9,11 +9,16 @@ const MealsAvailabel =()=>{
 
   const [ meals , setMeals] = useState([])
   const [isLoading , setIsloading] = useState(true)
+  const [error , setError] = useState('')
 
   useEffect(()=>{
+    setIsloading(true)
     async function fetchMeals(){
-      setIsloading(true)
       const response = await fetch('https://react-html-b467d-default-rtdb.firebaseio.com/meals.json');
+
+      if (!response.ok) {
+        throw new Error('something is wrong!')
+      }
       const data = await response.json();
 
       const mealsArr =[];
@@ -29,22 +34,31 @@ const MealsAvailabel =()=>{
         })
       }
       setMeals(mealsArr)
-      
       setIsloading(false)
     }
-    fetchMeals();
+    fetchMeals().catch(error=>{
+      setIsloading(false)
+      setError(error.message)
+    })
   }, [])
 
  if (isLoading) {
    return(
-     <section>
+     <section className={styles.loadingStyle}>
        <p>is loading...</p>
      </section>
    );
  }
- console.log(isLoading)
+ if (error) {
+   return(
+     <section className={styles.loadingStyle}>
+       {error}
+     </section>
+   )
+   
+ }
 
-  console.log(meals)
+
     const mealsList = meals.map(meal =>
          <Meal 
             id={meal.id}

@@ -18,3 +18,15 @@
     text-align: center;
     padding: 15px;
 }
+.loadingStyle{
+    text-align: center;
+    color: rgb(184, 0, 0);
+    
+    height: 20px ;
+    background-color: rgba(30, 30, 3, .9);
+    transform: translateY(-450px);
+    -webkit-transform: translateY(-450px);
+    -moz-transform: translateY(-450px);
+    -ms-transform: translateY(-450px);
+    -o-transform: translateY(-450px);
+}
